@@ -52,11 +52,11 @@ The column "EIN" was removed from the input data because it contains only unique
 
 ![model.png](./Resources/model.png)
 
-- 3 hidden layers
+- Hideen layers: 3;
 
-- 100, 30, 10 neurons
+- Neurons: 100, 30, and 10 neurons respectively.
 
-- activation functions: Relu for the first hidden layer, and sigmoid for the two other hidden layers and also for the output layer.
+- Activation functions: Relu for the first hidden layer, sigmoid for the two other hidden layers and also for the output layer.
 
 
 
@@ -68,26 +68,14 @@ The column "EIN" was removed from the input data because it contains only unique
 
 #### What steps did you take to try and increase model performance?
 
-- Multiple testes were performed trying different combinations of hidden layers, neurons, and activation functions.
-But one of the steps that actually made the difference was to keep the column NAMES, which at first may seem like it contains only unique values since they are identifications. But when investigating it, it actually does not have only unique values which then should be included on the prediction analysis.
+- Multiple tests were performed trying different combinations of hidden layers, neurons, and activation functions.
+But one of the steps that actually made the difference was to keep the column NAMES, which at first may seem like it contains only unique values since they are identifications, but when investigating this column, it actually does not have only unique values meaning that it should be included on the prediction analysis.
 
 
 ## **Summary**
 
- Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+In summary, it is important to look at all the features before dropping any that may seem irrelevant since that can cause low performance on the model. 
 
+The Neural Model with the chosen hidden layers, neurons, and activation functions is 80% accurate at predicting if a charity would be successful after a donation.
 
-
-----------------------------------------------------------------------------------------------
-
-
-
-
-Deliverable 4 Instructions
-For this part of the Challenge, you’ll write a report on the performance of the deep learning model you created for AlphabetSoup.
-
-The report should contain the following:
-
-
-Results: Using bulleted lists and images to support your answers, address the following questions.
-
+As a suggestion, a model that could help to increase the performance even more could be the Random Forest Classifier, since it is good with classification problems.
