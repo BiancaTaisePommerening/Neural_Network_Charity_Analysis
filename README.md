@@ -52,11 +52,11 @@ The column "EIN" was removed from the input data because it contains only unique
 
 ![model.png](./Resources/model.png)
 
-- Hideen layers: 3;
+- Hidden layers: 3;
 
 - Neurons: 100, 30, and 10 neurons respectively.
 
-- Activation functions: Relu for the first hidden layer, sigmoid for the two other hidden layers and also for the output layer.
+- Activation functions: Relu for the first hidden layer, Sigmoid for the two other hidden layers and also for the output layer.
 
 
 
@@ -79,3 +79,4 @@ In summary, it is important to look at all the features before dropping any that
 The Neural Model with the chosen hidden layers, neurons, and activation functions is 80% accurate at predicting if a charity would be successful after a donation.
 
 As a suggestion, a model that could help to increase the performance even more could be the Random Forest Classifier, since it is good with classification problems.
+
